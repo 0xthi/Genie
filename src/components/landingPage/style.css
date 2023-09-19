@@ -1,0 +1,244 @@
+.navbar_background{
+    background-color: #311f4e;
+}
+
+.nav_button{
+    background-color:#AA60AE;
+	border-radius:10px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:15px 50px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+    margin-top: 4%;
+
+}
+
+.navlogo{
+    width: 40%;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+   .navlogo{
+    width: 80%;
+    margin-top: 0%;
+   
+}
+  }
+
+/* home page */
+/* .home_background{
+    background-image: url("../assets/images/gradient_dark.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.home_image{
+    width: 80%;
+}
+
+.home_image01{
+    width: 80%;
+}
+.home_text_h1{
+    font-weight:900;
+    margin-top: 10%;
+    font-size: 400%;
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 500px) {
+    .home_text_h1{
+        font-weight:700;
+        margin-top: 10%;
+        font-size: 200%;
+        margin-left: 10%;
+    }
+  }
+  
+.home_text_p{
+    font-weight: 600;
+    margin-left: 10%;
+    margin-top: 8%;
+    line-height: 200%;
+}
+
+.home_button{
+    background-color: rgb(158,111,184);
+    padding:3%;
+    width: 50%;
+    margin-left: 10%;
+    border-radius:20px;
+    color: white;
+    font-size: larger;
+}
+
+.home_button:hover{
+    background-color: rgb(136,71,139);
+}
+
+/* about page */
+
+/* .about_container{
+   background-image: url('../assets/images/gradient_right.png');
+   background-repeat: no-repeat;
+   background-size:cover;
+   width: 100%;
+} */
+
+.about_text_h1{
+    font-weight:900;
+    margin-top: 10%;
+  
+}
+
+.about_num{
+    font-size:200%;
+    background: linear-gradient(to right, #E89A3A, #BE6313);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about_button1{
+    border-radius: 20px;
+    padding-left: 5%;
+    padding-right:15%;
+    width: auto;
+    font-size: 30px;
+    background: linear-gradient(to right,#D00FAE, #6B12E6);
+    border-color:#D00FAE;
+    margin-top: 10%;
+}
+
+.about_button2{
+    
+    padding-left: 5%;
+    padding-right:5%;
+    color: white;
+    background-color: #016BFF;
+    border-radius: 20px;
+    border-color: #016BFF;
+    width: auto;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 8%;  
+}
+.about_image{
+    width: 100%;
+    margin-top: 0%;
+}
+/* .about_image01 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+    width: 100%;
+} */
+.about_image01 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+
+
+/* referral page */
+/* 
+.referral_background{
+    background-image: url("../assets/images/gradient_dark_flip.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    padding-left: 5%;
+} */
+
+.referal_h1{
+    margin-top: 15%;
+    /* font-weight: 900;
+    font-size: 80px; */
+    word-spacing: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.referral_p{
+    margin-top:8%;   
+}
+
+.referral_button{
+	background-color:#AA60AE;
+	border-radius:10px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:70%;
+	font-weight:bold;
+	padding:15px 50px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+    margin-top: 4%;
+}
+
+.referral_button:hover{
+    background-color: #754379;
+}
+/* 
+.referal_image{
+    width: 70%;
+    margin-top: 0%;
+}
+
+.referal_image01 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+    width: 70%;
+}
+.referal_image01 {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+} */
+
+
+/* footer page */
+
+.footer_background{
+    background-color: black;
+}
+
+.footer_text{
+    margin-top: 10%;
+}
+
+.footer_copywrite{
+    margin-top: 10%;
+}
+
+.footer_icons{
+    margin-top: 10%;
+}
+
+.footer_P{
+    margin-top: 5%;
+}
+
+
+  

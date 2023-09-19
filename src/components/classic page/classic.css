@@ -1,0 +1,82 @@
+.classicBackground{
+    background-image: url('../assets/images/color_gradient_2.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.classicLogo{
+    width: 75%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-right: 5%;
+}
+
+.classicButton{
+
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    width: 28%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.classicButton1{
+
+    border-radius: 10px;
+    color: black;
+    background-color: #EF9C32;
+    width: 28%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.classicRow{
+    background-color: black;
+    font-weight: 900;
+    border-radius: 10px;  
+}
+
+.classic_Bedding{
+    background-color: azure;
+    height: 50vh;
+    border-radius: 10px;
+
+}
+
+.classicFooter{
+    background-color: black ;
+    border-radius: 10px;
+}
+
+.classicfooter_text{
+    margin-top: 1%;
+}
+
+.classicfooter_copywrite{
+    margin-top: 2%;
+}
+
+.classicfooter_icons{
+    margin-top: 1%;
+}
+
+.classicfooter_P{
+    margin-top: 1%;
+}
+
+.classic_mode_button_1{
+
+    border-color:black;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.classic_development{
+
+    margin-top: 10%;
+    font-weight: 900;
+}
+
